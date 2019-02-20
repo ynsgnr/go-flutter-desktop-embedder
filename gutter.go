@@ -17,7 +17,7 @@ const dpPerInch = 160.0
 // Run executes a flutter application with the provided options.
 // given limitations this method must be called by the main function directly.
 func Run(options ...Option) (err error) {
-	log.Printf("WARNING: The go-flutter-desktop-embedder package has moved,\n please read https://github.com/go-flutter-desktop/go-flutter/wiki/Package-has-moved-to-an-organization")
+	fmt.Printf("WARNING: The go-flutter-desktop-embedder package has moved,\n please read https://github.com/go-flutter-desktop/go-flutter/wiki/Package-has-moved-to-an-organization")
 	
 	var (
 		window *glfw.Window
