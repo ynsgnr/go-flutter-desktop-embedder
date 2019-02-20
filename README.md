@@ -15,8 +15,7 @@ for desktop
 
 # Purpose
 
-> Disclaimer: Despite being very similar in the end goal, This project doesn't compete with
-> [this](https://github.com/google/flutter-desktop-embedding) awesome one.
+> Disclaimer: Yes this project has the same goals as [google/FDE](https://github.com/google/flutter-desktop-embedding), but I'm having fun and it scratches an itch I have, so I'm gonna keep going!
 
 The flutter engine itself doesn't know how to deal with desktop platforms _(eg handling mouse/keyboard input)_. Instead, it exposes an abstraction layer for whatever platform to implement. The purpose of this project is to implement [Flutter's Embedding API](https://github.com/flutter/engine/blob/master/shell/platform/embedder/embedder.h) using a **SINGLE** code base that runs on Windows, MacOS, and Linux.  [**GLFW**](https://github.com/go-gl/glfw) fits the job because it provides the right abstractions over the OpenGL's Buffer/Mouse/Keyboard for each platform. 
 
