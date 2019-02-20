@@ -1,6 +1,8 @@
 <img src="./mascot.png" width="170" align="right">
 
-# Go Flutter desktop embedder 
+# Go Flutter desktop embedder
+> :warning: Warning: this project has been moved to its own organization.  
+  Please take a look at its new location: [github.com/go-flutter-desktop](https://github.com/go-flutter-desktop)
 
 [![Join the chat at https://gitter.im/go-flutter-desktop-embedder/Lobby](https://badges.gitter.im/go-flutter-desktop-embedder/Lobby.svg)](https://gitter.im/go-flutter-desktop-embedder/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <a href="https://stackoverflow.com/questions/tagged/flutter?sort=votes">
