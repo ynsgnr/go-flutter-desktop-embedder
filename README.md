@@ -1,13 +1,14 @@
 <img src="./mascot.png" width="170" align="right">
 
+> ### :warning: Warning: this project has been moved to its own organization. Please take a look at its new location: [github.com/go-flutter-desktop](https://github.com/go-flutter-desktop)
+
+
 # Go Flutter desktop embedder
 
 [![Join the chat at https://gitter.im/go-flutter-desktop-embedder/Lobby](https://badges.gitter.im/go-flutter-desktop-embedder/Lobby.svg)](https://gitter.im/go-flutter-desktop-embedder/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <a href="https://stackoverflow.com/questions/tagged/flutter?sort=votes">
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
-> :warning: Warning: this project has been moved to its own organization.  
-  Please take a look at its new location: [github.com/go-flutter-desktop](https://github.com/go-flutter-desktop)
 
 A Go (golang) [Custom Flutter Engine
 Embedder](https://github.com/flutter/flutter/wiki/Custom-Flutter-Engine-Embedders)
