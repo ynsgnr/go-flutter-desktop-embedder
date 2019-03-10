@@ -1,8 +1,5 @@
 <img src="./mascot.png" width="170" align="right">
 
-> ### :warning: Warning: this project has been moved to its own organization. Please take a look at its new location: [github.com/go-flutter-desktop](https://github.com/go-flutter-desktop)
-
-
 # Go Flutter desktop embedder
 
 [![Join the chat at https://gitter.im/go-flutter-desktop-embedder/Lobby](https://badges.gitter.im/go-flutter-desktop-embedder/Lobby.svg)](https://gitter.im/go-flutter-desktop-embedder/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -10,13 +7,16 @@
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
 
+> #### :warning: Warning: this project has been moved to its own organization.<br /> Please take a look at its new location: [github.com/go-flutter-desktop](https://github.com/go-flutter-desktop)
+
 A Go (golang) [Custom Flutter Engine
 Embedder](https://github.com/flutter/flutter/wiki/Custom-Flutter-Engine-Embedders)
 for desktop
 
 # Purpose
 
-> Disclaimer: Yes this project has the same goals as [google/FDE](https://github.com/google/flutter-desktop-embedding), but I'm having fun and it scratches an itch I have, so I'm gonna keep going!
+> Disclaimer: Yes this project has the same goals as [google/FDE](https://github.com/google/flutter-desktop-embedding), but
+I'm having fun and it scratches an itch I have, so I'm gonna keep going!
 
 The flutter engine itself doesn't know how to deal with desktop platforms _(eg handling mouse/keyboard input)_. Instead, it exposes an abstraction layer for whatever platform to implement. The purpose of this project is to implement [Flutter's Embedding API](https://github.com/flutter/engine/blob/master/shell/platform/embedder/embedder.h) using a **SINGLE** code base that runs on Windows, MacOS, and Linux.  [**GLFW**](https://github.com/go-gl/glfw) fits the job because it provides the right abstractions over the OpenGL's Buffer/Mouse/Keyboard for each platform. 
 
